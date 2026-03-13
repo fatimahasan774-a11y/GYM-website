@@ -171,7 +171,8 @@ margin-block: 2rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
-     z-index: 2;   
+     z-index: 2;  
+
 
 }
 .card{
@@ -186,8 +187,7 @@ margin-block: 2rem;
 .contents{
 display: flex;
 flex-direction: column;
-align-items: self-start;
-gap: 0.5rem;
+gap: rem;
   
 }
 .card .contents p{
