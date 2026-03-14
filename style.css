@@ -527,7 +527,17 @@ form button{
     padding: 12px 25px;
     cursor: pointer;
 }
-
+.container-f{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #7b7676;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.container-f span{
+  color: #ed563b;
+}
 
 
 
