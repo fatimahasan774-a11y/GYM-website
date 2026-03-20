@@ -542,3 +542,100 @@ form button{
 
 
 
+@media (max-width: 768px){
+
+
+
+}
+
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-left: auto;
+  }
+
+  .main-nav {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  /* HERO */
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 12px;
+  }
+
+  /* CHOOSE PROGRAM */
+  .container-choose {
+    width: 90%;
+  }
+
+  .grid-cards {
+    grid-template-columns: 1fr;
+  }
+
+  /* GRID SECTION */
+  .grid-section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .Left .btn {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  /* CLASSES */
+  .container-cl {
+    width: 90%;
+  }
+
+  /* SCHEDULE */
+  .schedule-table {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* EXPERT TRAINERS */
+  .expert-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .trainer-card {
+    width: 100%;
+  }
+
+  /* CONTACT */
+  .contect-section {
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    width: 90%;
+    height: auto;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+}
+
+
+
+
+
+
+
+
